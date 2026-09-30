@@ -1,0 +1,11 @@
+packages:
+  - packages/debug-mode
+  - packages/client-ui-debug
+
+allowBuilds:
+  esbuild: true
+
+autoInstallPeers: false
+peerDependencyRules:
+  ignoreMissing:
+    - '@deepseek-ai/*'

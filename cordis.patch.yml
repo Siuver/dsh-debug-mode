@@ -1,0 +1,9 @@
+# Optional debug-mode over the shipped Web composition. The Host row owns
+# on-disk session state, the stable debug tools, and the Remote; the Client
+# half of this same package is the composer chip and dock. There are no
+# /debug-* slash commands. The Loader imports this installable root package
+# only — nested workspace packages are not resolvable from a linked profile.
+
+- insert:
+    - id: debug-mode
+      name: '@siuver/dsh-debug-mode'

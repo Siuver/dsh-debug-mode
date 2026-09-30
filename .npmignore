@@ -1,0 +1,12 @@
+packages
+scripts
+tests
+tsconfig.base.json
+tsconfig.json
+vitest.config.ts
+pnpm-workspace.yaml
+pnpm-lock.yaml
+*.tsbuildinfo
+**/*.spec.ts
+.gitignore
+.npmignore
